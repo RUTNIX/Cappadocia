@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/balqis?styles=25968');
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+/* ШАПКА САЙТА */
+
+header{
+    width: 100%;
+    position: relative;   
+
+}
+
+.header{
+    width: 100%; 
+    position: absolute;
+}
+
+/* МЕНЮ */
+
+.menu{
+    font-family: 'Roboto Condensed';
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 40px;
+    font-size: 20px;
+
+}
+
+.menu_text{
+    display: flex;
+    margin-left: 120px;
+}
+.menu_text p{
+    margin-left: 25px;
+}
+
+
+.menu_namber{
+    display: flex;
+    margin-right: 200px;
+}
+
+.menu_namber img{
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+/* ЛОГО */
+
+.logo{
+    position: relative;
+    width: 55%;
+    margin-left: 25%;
+    margin-top: 13%;
+}
+
+.logo p:first-child{
+    text-align: center;
+    font-size: 6em;
+    font-family: 'balqis';
+    display: inline;
+
+}
+
+.logo p:last-child{
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+    margin-right: 20%;    
+    float: right;
+    font-size: 1.5em;
+}
+
+/* section-1  Fairy tail */
+
+.section1{
+    margin-top:25%;
+
+}
+
+.id{
+    margin-top:35% ;
+    margin-left: 15%;
+}
+
+.id h2{
+    display: inline;
+    font-size: 3em;
+    font-family: 'balqis';
+    color: #E2AB3F;
+}
+
+.id p{
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-style: italic;
+    margin-top: -15px;
+    margin-left: 150px;
+}
+/* СЛАЙДЕР */
+
+
+.slaider{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slaider_img{
+    width: 50%;
+}
+
+.slaider_text{
+    margin-top: 20px;
+    width: 45%;
+    font-family: 'Roboto Condensed';
+}
+
+.slaider_text p{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.slaider_text h2{
+    font-size: 20px;
+}
+
+
+/* section2 */
+
+.section2{
+    width: 100%;
+
+}
+
+.id2{
+    width: 50%;
+    margin-top: 10%;
+    text-align: center;
+
+}
+
+.id2 h2{
+    font-family:'balqis' ;
+    display: inline;
+    color: #E2AB3F;
+    
+}
+
+.id2 p{
+    
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 15%;
+}
+
+.slaider2_img{
+    width: 50%;
+    float: right;
+}
+
+.slaider2_text{
+    width: 25%;
+    margin-left: 15%;
+    font-family: "roboto condensed";
+    font-size: 20px;
+}
+
+
+.day h2{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.day_1 {
+    margin-top: 15%;
+
+}   
+
+.section2 button{
+    width: 65%;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #E2AB3F;
+    margin-left: 15%;
+    margin-top: 50px;
+    font-family: 'roboto condensed';
+}
+
+ /* sectio3 */
+
+ .section3 {
+    width: 100%;
+    margin-top: 10%;
+ }
+
+.hotel_about{
+    margin-left: 10%;
+}
+
+ .hotel_about h2{
+    font-family: 'balqis';
+    color:#E2AB3F ;
+    font-size: 3em;
+}
+
+ .hotel_about p{
+     font-family:'Roboto Condensed' ;
+     font-style: italic;
+    font-weight: 300;
+     margin-left: 5%;
+     margin-top: -30px;
+ }
+
+ .hotel{
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+ }
+ 
+
+ .hotel_img{
+    width: 50%;
+    margin-left: 5%;
+ }
+
+ .hotel_p{
+     width: 50%;
+ }
+
+ .hotel_p p{
+     font-size: 17px;
+     font-family: 'Roboto Condensed';
+ }
+
+ .hotel_image img{
+    width: 260px;
+ }
+
+ .hotel_image img:first-child{
+    margin-top: 15px ;
+ }  
+
+ .hotel_image img:nth-child(2){
+    margin-left: 5%;
+    margin-top: 15px;
+ }
+ .hotel_image img:nth-child(3){
+    margin-top: 10%;
+ }
+
+
+ .hotel_image img:last-child{
+    margin-left: 5%;
+    margin-top: 10%;
+
+ }
+
+ .price_img{
+     width: 100%;
+ }
+
+ /* section4 */
+
+ .section4{
+     width: 100%;
+     margin-top: 5%;
+     
+ }
+
+.logo_price{
+    margin-left: 10%;
+
+}
+
+ .logo_price h2{
+     font-family: 'balqis';
+     font-size: 3em;
+     color:#E2AB3F ;
+ }
+
+ .logo_price p{
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 7%;
+    margin-top: -2%;
+ }
+
+.price{
+     width: 90%;
+     display: flex;
+     margin-left: 5%;
+     font-family:'Roboto Condensed' ;
+    }
+
+.price h2{
+    font-size: 1em;
+}
+.price p{
+    font-size: 0.7em;
+}
+
+.price_about{
+    margin-left: 5%;
+    width: 35%;
+    margin-top: 5%;
+    
+}
+.price_about h2{
+    margin-bottom: 5%;
+}   
+
+.price_adr{
+    margin-left: 3%;
+    margin-top: 5%;
+
+    width: 30%;
+}
+
+.price_adr h2{
+    margin-bottom: 5%;
+}
+    
+
+.price_img{
+    width: 30%;
+}
+
+.price_img img:first-child{
+    width: 15%;
+}
+
+.price_img img:nth-child(2){
+    width: 15%;
+    margin-top: 85%;
+    margin-left: 10%;
+}
+.price_img img:last-child{
+    width: 55%;
+}
+
+/* section 5 */
+
+.section5{
+    width: 100%;
+    margin-top: 10%;
+}
+
+.last{
+    width: 100%;
+    display: flex;
+}
+
+.tur{
+    width: 40%;
+    margin-left: 10%;
+}
+
+
+.data{
+    margin-left: 25%;
+}
+.data h2{
+    font-family: 'balqis';
+    color: #E2AB3F;
+    font-size: 3em;
+}
+.data p{
+    margin-left: 15%;
+    margin-top: -6%;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+.coin{
+    margin-left: 45%;
+}
+.coin h2{
+    font-family: 'balqis';
+    color: #E2AB3F;
+    font-size: 3em;
+}
+.coin p{
+    margin-left: 15%;
+    margin-top: -8%;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+}
+
+
+.tur_img img{
+    width: 600px;
+    height: 600px;
+}
+
+.tur_input{
+    font-family: 'Roboto Condensed';
+    margin-top: 15%;
+}
+
+.input_h2 h2{
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    margin-top: 4%;
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid #E2AB3F;
+}
+
+ .tur_btn button{
+    background: transparent;
+    border: 1px solid #E2AB3F;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+    font-size:.7em;
+
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    margin-top: 5%;
+    
+}
+
+.bg_footer {
+    width: 100%;
+}
+.bg_img {
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+}
+
+.f_bg{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+}
+
+.f_contacts{
+    width: 50%;
+    position: relative;
+
+}
+.infooter{
+    margin-top: 20%;
+    position: absolute;
+}
+.contacts_infooter{
+    position: relative;
+    margin-top: 30%;
+}
+.contacts_infooter h2{
+    font-family: 'balqis';
+    font-size: 3em;
+    margin: 10% 0 0 12%;
+    color:#E2AB3F;
+
+}
+
+.cont_number {
+    display: flex;
+    margin-left: 15%; 
+    margin-top: 2%;   
+}
+.cont_number img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.cont_number p{
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+}
+
+.cont_mail {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.cont_mail img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+}
+.cont_mail p{
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+}
+
+
+
+.cont_sait {
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.cont_sait img{
+    margin-left: 10px;
+}
+
+
+
+
+
+.f_h2{
+    width: 50%;
+    position: relative;
+
+}
+
+.f_h2 h2{
+    text-align: center;
+    margin-top: 50%;
+    font-family: 'balqis';
+    font-size: 3em ;
+}
+
+
+
